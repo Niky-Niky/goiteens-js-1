@@ -23,13 +23,17 @@ console.log("Oops!")
 }
 
 let random = Math.random((5 - 1) + 1);
-switch(random){
-case 1: console.log("Your number is 1");
-break;
-case 2: console.log("Your number is 2");
-break;
-case 3: console.log("Your number is 3");
-break;
+if(random === 1){
+    console.log("Your number is 1");
+} else if(random === 2){
+    console.log("Your number is 2");
+} else if(random === 3){
+    console.log("Your number is 3");
+} else if(random === 4){
+    console.log("Your number is 4");
+} else if(random === 5){
+    console.log("Your number is 5");
 }
 
-
+// I don't know how to solve the fifth problem because I don't 
+// know how variable "lang" can acquire 4 units. 
